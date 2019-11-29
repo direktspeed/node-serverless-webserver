@@ -1,0 +1,17 @@
+{
+  "name": "serverless-webserver",
+  "version": "0.0.0-pre0",
+  "description": "A Serverless Webserver using Couchbase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "couchbase": "^2.6.3",
+    "node-couchbase-event-driver": "https://github.com/direktspeed/node-couchbase-event-driver.git",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  }
+}
